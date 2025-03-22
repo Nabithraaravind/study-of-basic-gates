@@ -65,15 +65,40 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
- 
+** Developed by: A.Nabithra **
+** RegisterNumber: 212224230172 **
+```
+module EXP1(a,b,c,d,e,f,g,h);
+input a,b;
+output c,d,e,f,g,h;
+assign c=a&b;
+assign d=a|b;
+assign e=a^b;
+assign f=~(a&b);
+assign g=~(a|b);
+assign h=~(a^b);
+endmodule
+ ```
 **Logic symbol & Truthtable**
 
+![image](https://github.com/user-attachments/assets/0c993bac-763f-48d7-a058-bf41ac496ec3)
+![image](https://github.com/user-attachments/assets/f65e825b-42da-4219-a8f8-f3576a926adc)
+![image](https://github.com/user-attachments/assets/1071c051-c53e-4588-a4a5-0a9b4bd828d4)
+
+![image](https://github.com/user-attachments/assets/6c45f174-284a-48c4-823e-d5f808ccf9e9)
+![image](https://github.com/user-attachments/assets/9b658a19-1319-464f-8182-9bff57b86b94)
+![image](https://github.com/user-attachments/assets/42f533cd-c9f5-496e-bcca-48dae59032ab)
+
+
 **RTL realization Output:** 
+![image](https://github.com/user-attachments/assets/fec70944-c754-4c21-a35e-d68693f48ee6)
+
 
 **RTL**
+![image](https://github.com/user-attachments/assets/45137270-5069-4ecf-9386-b0ed749c0d30)
 
 **Result:**
+
+The Program is verified and executed successfully.
 
 
