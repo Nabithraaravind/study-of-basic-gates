@@ -99,6 +99,6 @@ endmodule
 
 **Result:**
 
-The Program is verified and executed successfully.
+Thus, the Program is verified and executed successfully.
 
 
